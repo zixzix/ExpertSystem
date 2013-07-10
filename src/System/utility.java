@@ -9,7 +9,7 @@ import jpl.Variable;
 
 public class utility {
     public static void main(String[] args) {
-        System.out.println("Sei un coglione!!! Pasquale và con i neri sordi..."); // Display the string.
+        System.out.println("Sei un coglione!!! Vincenzo và con i neri sordi..."); // Display the string.
         
         Query q1 = new Query("consult", new Term[] {new Atom("prolog.pl")} );
         q1.open();
