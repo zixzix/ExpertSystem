@@ -9,8 +9,8 @@ import jpl.Variable;
 
 public class Utility {
     public static void main(String[] args) {
-        System.out.println("Sei un coglione!!! Pasquale và con i neri sordi..."); // Display the string.
-        System.out.println("Ricordiamoci di mantenere un contegno perchè il progetto è pubblico"); // Display the string.
+        System.out.println("Sei un coglione!!! Pasquale và con i neri sordi...");
+        System.out.println("Ricordiamoci di mantenere un contegno perchè il progetto è pubblico");
         
         Query q1 = new Query("consult", new Term[] {new Atom("prolog.pl")} );
         q1.open();
@@ -21,6 +21,7 @@ public class Utility {
     	
     	@SuppressWarnings("rawtypes")
 		Hashtable solution;
+    	
     	
 
     	while ( q2.hasMoreSolutions() ){
