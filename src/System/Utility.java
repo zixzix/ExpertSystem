@@ -19,7 +19,8 @@ public class Utility {
         
         Query q2 = new Query("descendent_of",new Term[] {new Variable("X"),new Atom("joe")} );
     	
-    	Hashtable solution;
+    	@SuppressWarnings("rawtypes")
+		Hashtable solution;
     	
 
     	while ( q2.hasMoreSolutions() ){
