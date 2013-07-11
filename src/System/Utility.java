@@ -21,7 +21,7 @@ public class Utility {
     	
     	@SuppressWarnings("rawtypes")
 		Hashtable solution;
-    	
+    	//ciao
     	
 
     	while ( q2.hasMoreSolutions() ){
